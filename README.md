@@ -1,4 +1,4 @@
-#EPUB-Converter
+# EPUB-Converter
 
 This is a simple converter from EPUB files to .txt files. It requires that you `gem install henkei` and `gem install epub-parser`.
 
