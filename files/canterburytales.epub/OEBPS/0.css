@@ -1,0 +1,427 @@
+/**/
+p {
+    margin-top: 0.75em;
+    margin-bottom: 0.75em
+    }
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    /* all headings centered */
+    }
+hr {
+    text-align: center;
+    width: 50%
+    }
+hr.full {
+    width: 100%
+    }
+hr.short {
+    text-align: center;
+    width: 20%
+    }
+hr.tb {
+    text-align: left;
+    border-top: 1px dotted #000;
+    color: #fff;
+    background-color: #fff;
+    width: 40%
+    }
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify
+    }
+table.allbnomar {
+    border: thin solid black;
+    border-collapse: collapse
+    }
+table.allb {
+    border: thin solid black;
+    border-collapse: collapse;
+    margin-left: 4em
+    }
+table.tpbtb {
+    border-top: thin solid black;
+    border-bottom: thin solid black;
+    border-collapse: collapse;
+    margin-left: 4em
+    }
+table.allbctr {
+    border: thin solid black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto
+    }
+table.nob {
+    margin-left: 4em
+    }
+table.nobctr {
+    margin-left: auto;
+    margin-right: auto
+    }
+table.math {
+    margin-left: 10%;
+    vertical-align: middle;
+    text-align: center
+    }
+table.math0 {
+    vertical-align: middle;
+    text-align: center
+    }
+table.math15 {
+    margin-left: 15%;
+    vertical-align: middle;
+    text-align: center
+    }
+table.maths {
+    font-size: smaller;
+    vertical-align: middle;
+    text-align: center
+    }
+td.allb {
+    border: thin solid black;
+    padding-left: 0.5em;
+    padding-right: 0.5em
+    }
+td.spac {
+    padding-left: 1em;
+    padding-right: 1em
+    }
+td.tpbtb {
+    border-top: thin solid black;
+    border-bottom: thin solid black;
+    padding-left: 1em;
+    padding-right: 1em
+    }
+td.spacsingle {
+    padding-left: 1em;
+    padding-right: 1em
+    }
+td.nspac {
+    padding-left: 0;
+    padding-right: 0
+    }
+td.vertb {
+    border-left: thin solid black;
+    border-right: thin solid black;
+    padding-left: 0.5em;
+    padding-right: 0.5em
+    }
+td.vertbotb {
+    border-left: thin solid black;
+    border-right: thin solid black;
+    border-bottom: thin solid black;
+    padding-left: 0.5em;
+    padding-right: 0.5em
+    }
+td.verttopb {
+    border-left: thin solid black;
+    border-right: thin solid black;
+    border-top: thin solid black;
+    padding-left: 0.5em;
+    padding-right: 0.5em
+    }
+.single p {
+    margin: 0
+    }
+.spacsingle p {
+    margin: 0
+    }
+.contents {
+    margin-left: 30%;
+    margin-right: 10%;
+    margin-bottom: 1em;
+    text-align: left
+    }
+.contents .stanza {
+    margin: 1em 0 1em 0
+    }
+.contents p {
+    margin: 0;
+    padding-left: 3em;
+    text-indent: -3em
+    }
+.poem {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1em;
+    text-align: left
+    }
+.poem .stanza {
+    margin: 1em 0 1em 0
+    }
+.poem p {
+    margin: 0;
+    padding-left: 3em;
+    text-indent: -3em
+    }
+p.hg3 {
+    margin-left: -0.3em
+    }
+p.hg1 {
+    margin-left: -0.1em
+    }
+p.i2 {
+    margin-left: 1em
+    }
+p.i2hg1 {
+    margin-left: 0.9em
+    }
+p.i2hg3 {
+    margin-left: 0.7em
+    }
+p.i4 {
+    margin-left: 2em
+    }
+p.i4hg3 {
+    margin-left: 1.7em
+    }
+p.i6 {
+    margin-left: 3em
+    }
+p.i8hg3 {
+    margin-left: 3.7em
+    }
+p.i8 {
+    margin-left: 4em
+    }
+p.z8 {
+    margin-left: 4em;
+    font-style: italic
+    }
+p.i10 {
+    margin-left: 5em
+    }
+p.z10 {
+    margin-left: 5em;
+    font-style: italic
+    }
+p.i12 {
+    margin-left: 6em
+    }
+p.i12hg3 {
+    margin-left: 5.7em
+    }
+p.i16 {
+    margin-left: 8em
+    }
+p.i16hg3 {
+    margin-left: 7.7em
+    }
+p.i20 {
+    margin-left: 10em
+    }
+p.i20hg3 {
+    margin-left: 9.7em
+    }
+p.i24 {
+    margin-left: 12em
+    }
+p.i24hg3 {
+    margin-left: 11.7em
+    }
+p.i30 {
+    margin-left: 15em
+    }
+p.i30hg3 {
+    margin-left: 14.7em
+    }
+p.i40 {
+    margin-left: 20em
+    }
+a:link {
+    color: blue;
+    text-decoration: none
+    }
+a:visited {
+    color: blue;
+    text-decoration: none
+    }
+a:hover {
+    color: red
+    }
+link {
+    color: blue;
+    text-decoration: none
+    }
+.noflo {
+    margin-bottom: 1em;
+    text-align: left
+    }
+.noflo .stanza {
+    margin: 1em 0 1em 0
+    }
+.noflo p {
+    margin: 0;
+    padding-left: 3em;
+    text-indent: -3em
+    }
+.noflo p.i2 {
+    margin-left: 1em
+    }
+.noflo p.i16 {
+    margin-left: 8em
+    }
+.author {
+    text-align: right;
+    margin-top: -1em
+    }
+.center {
+    text-align: center
+    }
+.cenhead {
+    text-align: center;
+    margin-top: 1em
+    }
+.right {
+    text-align: right
+    }
+.t {
+    vertical-align: top
+    }
+.tr {
+    vertical-align: top
+    }
+.tc {
+    vertical-align: top
+    }
+.tr p {
+    text-align: right
+    }
+.tc p {
+    text-align: center
+    }
+.m {
+    vertical-align: middle
+    }
+.mr {
+    vertical-align: middle
+    }
+.mc {
+    vertical-align: middle
+    }
+.mr p {
+    text-align: right
+    }
+.mc p {
+    text-align: center
+    }
+.b {
+    vertical-align: bottom
+    }
+.vol {
+    /*font-weight: bold;*/
+    font-size: small
+    }
+.grk {
+    font-style: normal;
+    font-family: "Palatino Linotype", "New Athena Unicode", Gentium, "Lucida Grande", Galilee, "Arial Unicode MS", sans-serif
+    }
+.juni {
+    font-style: normal;
+    font-family: "Junicode", serif
+    }
+sup {
+    font-style: normal;
+    font-size: small
+    }
+pre {
+    font-family: "Courier New", Courier, monospace;
+    margin-left: 1em
+    }
+.sc {
+    font-variant: small-caps
+    }
+.scac {
+    font-size: small
+    }
+.linenum {
+    text-align: right
+    }
+/* poetry number */
+blockquote {
+    margin-left: 2em;
+    margin-right: 2em
+    }
+blockquote.b1n {
+    font-size: medium
+    }
+blockquote.b1s {
+    font-size: small
+    }
+.pagenum {
+    font-size: smaller;
+    text-align: right
+    }
+/* page numbers */
+.pagenumx {
+    font-size: smaller;
+    text-align: right
+    }
+/* page numbers with extension */
+.sidenote {
+    margin-bottom: 1em;
+    margin-top: 1em;
+    padding-left: 1em;
+    font-size: smaller;
+    clear: right;
+    font-weight: bold;
+    font-style: italic
+    }
+.note {
+    margin-left: 2em;
+    margin-right: 2em
+    }
+/* footnote - removed font-size: small;  */
+span.correction {
+    border-bottom: thin dotted red
+    }
+span.special {
+    text-decoration: none
+    }
+span.intlim {
+    font-size: small
+    }
+span.over {
+    text-decoration: overline
+    }
+span.under {
+    text-decoration: underline
+    }
+span.inline {
+    font-size: small
+    }
+.nobo {
+    border: thin
+    }
+.red {
+    color: red
+    }
+.figure, .figcenter, .figright, .figleft {
+    padding: 1em;
+    margin: 0;
+    text-align: center;
+    font-size: 0.8em
+    }
+.figure img, .figcenter img, .figright img, .figleft img {
+    border: none
+    }
+.figure p, .figcenter p, .figright p, .figleft p {
+    margin: 0;
+    text-indent: 1em
+    }
+.figure p.in, .figcenter p.in, .figright p.in, .figleft p.in {
+    margin: 0;
+    text-indent: 8em
+    }
+.figcenter p.poem {
+    margin-left: 1em;
+    text-align: left;
+    text-indent: 0
+    }
+.figcenter {
+    margin: auto
+    }
+img.middle {
+    border: none;
+    vertical-align: middle
+    }
