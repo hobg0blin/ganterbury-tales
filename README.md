@@ -5,7 +5,7 @@ This repo contains the code and results of my entry for [NaNoGenMo 2019](https:/
 ## Sample Output
 
 
-#### 901 Steps
+#### 901 Steps (retraining output)
 
 `A! false god, false god! owen god?
 Who is he? who is he? who is he?
@@ -36,7 +36,8 @@ Much as I shal tellen al the cause why.
 `
 
 #### 10000 Steps (using novel generation script)
-`Balade that Chaucier made.
+```
+Balade that Chaucier made.
 
 
 This world is now ful tikel, sikerly;
@@ -133,7 +134,7 @@ That I shal doon, I wol rewe on Thursday.
 And wel I woot, Sathanas, if I have it in my might,
 I wol shal make hem good men to venge thee.'
 
-`
+```
 
 
 ### Setup
