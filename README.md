@@ -10,6 +10,8 @@ Once your corpus is ready, I’ve modified the sample code from [minimaxir’s g
 
 Simply run `python retrain.py -m=(your preferred model, right now options are “124M” and “355M) -f=”path_to_your_file” -s=(optional number of steps you want to retrain for)`.
 
+Once you’ve retrained your model, you can generate a 50,000ish word text using `python novel_gen.py -d=“file_to_write_to" -c=“checkpoint_location" -t=“model temperature"`. This script pulls a sentence from the original text as a seed, then generates a few paragraphs from GPT-2, gets a character count from the generated text, moves to that point in the original, and uses the nearest sentence as a seed for the next generation until it hits 50,000 words
+
 **TODOS**
 - [] turn all `clean.py` vars into command line options
-- [] script to actually generate novel - need to mess with seeding, temp and length to see best mix of structure/randomness
+- [x] script to actually generate novel - need to mess with seeding, temp and length to see best mix of structure/randomness
