@@ -8,7 +8,7 @@ The contents in the “files” folder are all you need to get going, but if you
 
 Once your corpus is ready, I’ve modified the sample code from [minimaxir’s gpt-2-simple package](https://github.com/minimaxir/gpt-2-simple) so you can plug and play it.
 
-Simply run `python retrain.py -m=(your preferred model, right now options are “124M” and “355M) -f=”path_to_your_file” -s=(optional number of steps you want to retrain for)`.
+Simply run `python retrain.py -m=(your preferred model, right now options are “124M” and “355M) -f=”path_to_your_file” -s=(optional number of steps you want to retrain for)`. Alternately, if you don’t have access to a GPU/don’t want to wait to train, I’ve kindly used up all my git large file storage to include a 1000 step training in the checkpoints folder. This one has some anachronisms (it seems to make a lot of winky faces, for example), but still does a halfway decent job.
 
 Once you’ve retrained your model, you can generate a 50,000ish word text using `python novel_gen.py -d=“file_to_write_to" -c=“checkpoint_location" -t=“model temperature"`. This script pulls a sentence from the original text as a seed, then generates a few paragraphs from GPT-2, gets a character count from the generated text, moves to that point in the original, and uses the nearest sentence as a seed for the next generation until it hits 50,000 words
 
